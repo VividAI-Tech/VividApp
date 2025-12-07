@@ -1,0 +1,95 @@
+name: vivid_notes_flutter
+description: AI-powered call & meeting recorder with transcription and summarization - Desktop & Mobile
+publish_to: 'none'
+version: 1.1.0+2
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.3.0
+  lucide_icons: ^0.257.0
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  
+  # Audio Recording
+  record: ^6.0.0
+  just_audio: ^0.9.36
+  audio_waveforms: ^1.0.5
+  
+  # Phone Call Recording (Android only)
+  phone_state: ^1.0.3
+  
+  # On-device AI (Whisper)
+  whisper_flutter_new: ^1.0.1
+  
+  # On-device Gemini Nano (Android Pixel 9+ only)
+  ai_edge_sdk: ^1.0.0
+  
+  # On-device Gemma 3 (iOS, Android, Web)
+  flutter_gemma: ^0.11.13
+  
+  # Speaker Diarization
+  sherpa_onnx: ^1.10.40
+  
+  # HTTP for API calls
+  http: ^1.1.0
+  dio: ^5.4.0
+  
+  # File handling
+  file_picker: ^6.1.1
+  share_plus: ^12.0.1
+  
+  # Permissions
+  permission_handler: ^11.1.0
+  
+  # Utils
+  intl: ^0.19.0
+  uuid: ^3.0.7
+  flutter_local_notifications: ^16.3.0
+  url_launcher: ^6.2.2
+  
+  # Foreground service for recording (mobile)
+  flutter_foreground_task: ^6.1.2
+  
+  # Desktop specific
+  window_manager: ^0.3.7
+  system_tray: ^2.0.3
+  
+  # Responsive UI
+  responsive_framework: ^1.1.1
+  timeago: ^3.7.1
+  flutter_markdown: ^0.7.7+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  hive_generator: ^2.0.1
+  riverpod_generator: ^2.3.9
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/models/
+    - assets/images/
+  
+  # Fonts loaded via google_fonts package
