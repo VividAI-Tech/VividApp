@@ -13,14 +13,21 @@ class MainFlutterWindow: NSWindow {
     self.titlebarAppearsTransparent = true
     self.titleVisibility = .hidden
     
-    // Keep the traffic lights but make them overlay on content
-    // This gives a modern macOS look
-    self.isOpaque = false
-    self.backgroundColor = .clear
+    // Keep traffic lights visible - DO NOT set isOpaque=false or backgroundColor=clear
+    // as this can cause the window to be invisible on some systems
     
     RegisterGeneratedPlugins(registry: flutterViewController)
 
     super.awakeFromNib()
+    
+    // Explicitly show and activate the window with delay to ensure Flutter is ready
+    DispatchQueue.main.async { [weak self] in
+      guard let self = self else { return }
+      self.setIsVisible(true)
+      self.center()
+      self.makeKeyAndOrderFront(nil)
+      NSApp.activate(ignoringOtherApps: true)
+    }
   }
   
   override var canBecomeKey: Bool {
@@ -31,3 +38,4 @@ class MainFlutterWindow: NSWindow {
     return true
   }
 }
+

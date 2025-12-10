@@ -1,0 +1,202 @@
+PODS:
+  - audio_session (0.0.1):
+    - Flutter
+  - audio_waveforms (0.0.1):
+    - Flutter
+  - background_downloader (0.0.1):
+    - Flutter
+  - DKImagePickerController/Core (4.3.9):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.9)
+  - DKImagePickerController/PhotoGallery (4.3.9):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.9)
+  - DKPhotoGallery (0.0.19):
+    - DKPhotoGallery/Core (= 0.0.19)
+    - DKPhotoGallery/Model (= 0.0.19)
+    - DKPhotoGallery/Preview (= 0.0.19)
+    - DKPhotoGallery/Resource (= 0.0.19)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - file_picker (0.0.1):
+    - DKImagePickerController/PhotoGallery
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_foreground_task (0.0.1):
+    - Flutter
+  - flutter_gemma (0.11.13):
+    - Flutter
+    - MediaPipeTasksGenAI (= 0.10.24)
+    - MediaPipeTasksGenAIC (= 0.10.24)
+    - TensorFlowLiteC (= 0.0.1-nightly.20250619)
+    - TensorFlowLiteSelectTfOps (= 0.0.1-nightly.20250619)
+    - TensorFlowLiteSwift (= 0.0.1-nightly.20250619)
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - just_audio (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - large_file_handler (0.0.1):
+    - Flutter
+  - MediaPipeTasksGenAI (0.10.24):
+    - MediaPipeTasksGenAIC (= 0.10.24)
+  - MediaPipeTasksGenAIC (0.10.24)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - phone_state (1.0.4):
+    - Flutter
+  - record_ios (1.1.0):
+    - Flutter
+  - SDWebImage (5.21.5):
+    - SDWebImage/Core (= 5.21.5)
+  - SDWebImage/Core (5.21.5)
+  - share_plus (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sherpa_onnx_ios (1.12.19):
+    - Flutter
+  - SwiftyGif (5.4.5)
+  - TensorFlowLiteC (0.0.1-nightly.20250619):
+    - TensorFlowLiteC/Core (= 0.0.1-nightly.20250619)
+  - TensorFlowLiteC/Core (0.0.1-nightly.20250619)
+  - TensorFlowLiteSelectTfOps (0.0.1-nightly.20250619)
+  - TensorFlowLiteSwift (0.0.1-nightly.20250619):
+    - TensorFlowLiteSwift/Core (= 0.0.1-nightly.20250619)
+  - TensorFlowLiteSwift/Core (0.0.1-nightly.20250619):
+    - TensorFlowLiteC (= 0.0.1-nightly.20250619)
+    - TensorFlowLiteSwift/Privacy (= 0.0.1-nightly.20250619)
+  - TensorFlowLiteSwift/Privacy (0.0.1-nightly.20250619)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - whisper_flutter_new (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - audio_session (from `.symlinks/plugins/audio_session/ios`)
+  - audio_waveforms (from `.symlinks/plugins/audio_waveforms/ios`)
+  - background_downloader (from `.symlinks/plugins/background_downloader/ios`)
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_foreground_task (from `.symlinks/plugins/flutter_foreground_task/ios`)
+  - flutter_gemma (from `.symlinks/plugins/flutter_gemma/ios`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - just_audio (from `.symlinks/plugins/just_audio/darwin`)
+  - large_file_handler (from `.symlinks/plugins/large_file_handler/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - phone_state (from `.symlinks/plugins/phone_state/ios`)
+  - record_ios (from `.symlinks/plugins/record_ios/ios`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sherpa_onnx_ios (from `.symlinks/plugins/sherpa_onnx_ios/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - whisper_flutter_new (from `.symlinks/plugins/whisper_flutter_new/ios`)
+
+SPEC REPOS:
+  trunk:
+    - DKImagePickerController
+    - DKPhotoGallery
+    - MediaPipeTasksGenAI
+    - MediaPipeTasksGenAIC
+    - SDWebImage
+    - SwiftyGif
+    - TensorFlowLiteC
+    - TensorFlowLiteSelectTfOps
+    - TensorFlowLiteSwift
+
+EXTERNAL SOURCES:
+  audio_session:
+    :path: ".symlinks/plugins/audio_session/ios"
+  audio_waveforms:
+    :path: ".symlinks/plugins/audio_waveforms/ios"
+  background_downloader:
+    :path: ".symlinks/plugins/background_downloader/ios"
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  Flutter:
+    :path: Flutter
+  flutter_foreground_task:
+    :path: ".symlinks/plugins/flutter_foreground_task/ios"
+  flutter_gemma:
+    :path: ".symlinks/plugins/flutter_gemma/ios"
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  just_audio:
+    :path: ".symlinks/plugins/just_audio/darwin"
+  large_file_handler:
+    :path: ".symlinks/plugins/large_file_handler/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  phone_state:
+    :path: ".symlinks/plugins/phone_state/ios"
+  record_ios:
+    :path: ".symlinks/plugins/record_ios/ios"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sherpa_onnx_ios:
+    :path: ".symlinks/plugins/sherpa_onnx_ios/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  whisper_flutter_new:
+    :path: ".symlinks/plugins/whisper_flutter_new/ios"
+
+SPEC CHECKSUMS:
+  audio_session: 9bb7f6c970f21241b19f5a3658097ae459681ba0
+  audio_waveforms: a6dde7fe7c0ea05f06ffbdb0f7c1b2b2ba6cedcf
+  background_downloader: 50e91d979067b82081aba359d7d916b3ba5fadad
+  DKImagePickerController: 946cec48c7873164274ecc4624d19e3da4c1ef3c
+  DKPhotoGallery: b3834fecb755ee09a593d7c9e389d8b5d6deed60
+  file_picker: 07c75322ede1d47ec9bb4ac82b27c94d3598251a
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_foreground_task: a159d2c2173b33699ddb3e6c2a067045d7cebb89
+  flutter_gemma: 8ed32b19abae2e069095437401f0a2d5ec46c0cb
+  flutter_local_notifications: ad39620c743ea4c15127860f4b5641649a988100
+  just_audio: 4e391f57b79cad2b0674030a00453ca5ce817eed
+  large_file_handler: b37481e9b4972562ffcdc8f75700f47cd592bcec
+  MediaPipeTasksGenAI: 076ba7032a6e9da16db9c7cf0c3b67c751c18bc1
+  MediaPipeTasksGenAIC: ec35d9f431f6a6b651a0bc9f67a4ed149ffa575c
+  path_provider_foundation: bb55f6dbba17d0dccd6737fe6f7f34fbd0376880
+  permission_handler_apple: 4ed2196e43d0651e8ff7ca3483a069d469701f2d
+  phone_state: 09524710fc44aabcf0b392ac5cbe51ae72c76352
+  record_ios: f75fa1d57f840012775c0e93a38a7f3ceea1a374
+  SDWebImage: e9c98383c7572d713c1a0d7dd2783b10599b9838
+  share_plus: 50da8cb520a8f0f65671c6c6a99b3617ed10a58a
+  shared_preferences_foundation: 7036424c3d8ec98dfe75ff1667cb0cd531ec82bb
+  sherpa_onnx_ios: 93661221a6977fc954e72eaed8ddd517f37c6a74
+  SwiftyGif: 706c60cf65fa2bc5ee0313beece843c8eb8194d4
+  TensorFlowLiteC: 215ef57653dd0fa09a474e7d94d79ae64a870b28
+  TensorFlowLiteSelectTfOps: c71d7dcd063f5d66ae1b9a85cc5aa993f824eff9
+  TensorFlowLiteSwift: 6de8da348de331778167a0f751ad74c41d8b0554
+  url_launcher_ios: 7a95fa5b60cc718a708b8f2966718e93db0cef1b
+  whisper_flutter_new: 9276535665f51f845831fe94859b2cccd0334a70
+
+PODFILE CHECKSUM: c0915517eae1a513480956f02c7781054ca94770
+
+COCOAPODS: 1.16.2

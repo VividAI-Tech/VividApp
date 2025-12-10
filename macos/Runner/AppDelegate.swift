@@ -20,8 +20,11 @@ class AppDelegate: FlutterAppDelegate {
     private var deviceListenerBlocks: [AudioDeviceID: AudioObjectPropertyListenerBlock] = [:]
     private var hardwareListenerBlock: AudioObjectPropertyListenerBlock?
     
+    private var hasLaunched = false
+    
     override func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
-        return true
+        // Don't terminate during initial launch phase - window might not be visible yet
+        return hasLaunched
     }
     
     override func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
@@ -64,6 +67,14 @@ class AppDelegate: FlutterAppDelegate {
             eventChannel?.setStreamHandler(self)
             
             NSLog("MeetingDetection: Channels registered successfully")
+        }
+        
+        // Ensure window is visible and set hasLaunched after a delay
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) { [weak self] in
+            self?.mainFlutterWindow?.makeKeyAndOrderFront(nil)
+            NSApp.activate(ignoringOtherApps: true)
+            self?.hasLaunched = true
+            NSLog("Vivid: Window activation complete, termination check enabled")
         }
     }
     
